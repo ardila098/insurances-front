@@ -1,3 +1,3 @@
-const baseUrl = "http://82.180.160.107:4000/api";
+const baseUrl = "https://api.kocservices.us/api";
 
 export default baseUrl;

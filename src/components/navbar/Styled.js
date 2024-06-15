@@ -37,7 +37,7 @@ const StyledButton = styled(Button)`
 `;
 
 const Logo = styled.img`
-  height: 170px;
+  height: 18rem;
   margin-right: 20px;
 
   @media (max-width: 768px) {

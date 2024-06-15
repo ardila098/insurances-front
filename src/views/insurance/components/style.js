@@ -68,7 +68,7 @@ const StyleDescription = styled.p`
   font-size: 1.8em;
   color: #333333;
   font-family: "Baloo Tamma 2", system-ui;
-  text-align: center;
+  
 
 `;
 
@@ -85,8 +85,10 @@ const StyledSection = styled.div``;
 const ContentFrontPage = styled(Col)`
   justify-content: center;
   div {
-    max-width: 270px;
+    max-width: 320px;
     margin: auto;
+  justify-content: center;
+
   }
 `;
 
