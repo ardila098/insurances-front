@@ -14,7 +14,7 @@ const HeaderInsurance = () => {
       <StyledHeader>
         <ContentFrontPage xs={24} sm={14}>
           <Row>
-            <StyleTittle>KOC SERVICES</StyleTittle>
+            <StyleTittle>KOC SERVICES LLC</StyleTittle>
             <StyleDescription>
               “Believe that trust is earned with every interaction. Our
               commitment to excellence and transparency means you can always

@@ -9,6 +9,7 @@ import {
   StyledHeader,
   StyledLayout,
 } from "./Styled";
+import { infoKocServices } from "../../constants/kocServicesConstants";
 
 const Navbar = ({ selectedKeys, onSelect }) => {
   const [visible, setVisible] = useState(false);
@@ -52,12 +53,10 @@ const Navbar = ({ selectedKeys, onSelect }) => {
           onSelect={onChangeSelect}
           defaultSelectedKeys={["1"]}
         >
-          <Menu.Item key="1" onCl>
-            About
-          </Menu.Item>
-          <Menu.Item key="2">Our Services</Menu.Item>
-          <Menu.Item key="3">Our Values</Menu.Item>
-          <Menu.Item key="3">Contact Us</Menu.Item>
+          {Object.keys(infoKocServices).map((key) => {
+            const section = infoKocServices[key];
+            return <Menu.Item key={section.id}>{section.name}</Menu.Item>;
+          })}
         </Menu>
       </Drawer>
     </StyledLayout>
