@@ -54,9 +54,9 @@ const FormInsurance = () => {
             <Input placeholder="Phone" />
           </Form.Item>
 
-          <Form.Item
+          <Form.Item 
             name="email"
-            rules={[{ required: true, message: "Please enter your email!" }]}
+            rules={[{ required: true, message: "Please enter your email!",  type:'email'}]}
           >
             <Input placeholder="Email" />
           </Form.Item>
